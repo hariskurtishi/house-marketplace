@@ -1,16 +1,15 @@
-import { initializeApp } from 'firebase/app'
-import { getFirestore } from 'firebase/firestore'
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyDA8LVcBB6ZuFMGtZZLEh_veJ44WGrNRdE',
-  authDomain: 'house-marketplace-app-fb1d0.firebaseapp.com',
-  projectId: 'house-marketplace-app-fb1d0',
-  storageBucket: 'house-marketplace-app-fb1d0.appspot.com',
-  messagingSenderId: '832068369979',
-  appId: '1:832068369979:web:dce177da9bfc60a4b4e61e',
-}
+  apiKey: "AIzaSyAUjGHVwTkd_A-NndHKspWWVeVOwfO1SUI",
+  authDomain: "house-marketplace-app-9d6a4.firebaseapp.com",
+  projectId: "house-marketplace-app-9d6a4",
+  storageBucket: "house-marketplace-app-9d6a4.appspot.com",
+  messagingSenderId: "450833997766",
+  appId: "1:450833997766:web:f321c53037bd9e55e11cc7",
+};
 
-// Initialize Firebase
-initializeApp(firebaseConfig)
-export const db = getFirestore()
+// Initialize Firebases
+initializeApp(firebaseConfig);
+export const db = getFirestore();
